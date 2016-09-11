@@ -26,3 +26,35 @@ h1{
     padding-left: 40%;
 }
 
+ul{
+    list-style-position: inside;
+    text-align: left; 
+
+}
+
+ol{
+    list-style-position: inside;
+    text-align: left; 
+
+}
+
+table {
+    border-collapse:separate;
+    border:solid green 3px;
+    border-radius:8px;
+    -moz-border-radius:8px;
+}
+
+td, th {
+    border-left:solid black 0px;
+    border-top:solid black 0px;
+}
+
+th {
+    border: none;
+}
+
+td{
+    background-color: greenyellow;
+    border-radius: 8px;  
+}
